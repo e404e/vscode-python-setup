@@ -1,0 +1,11 @@
+# using "elif"
+y = 25
+if y < 10:
+    print("Y is <10")
+    print("it is:", y)
+elif y > 10 and y < 19:
+    print("Y is >10 and <19")
+    print("it is:", y)
+else:
+    print("Y is >19")
+    print("it is:", y)
